@@ -14,8 +14,16 @@
 */
 
 // Your code goes here
+// function logMessage() 
+//   let logMessage = 'Hello World'
+// }
+// console.log(logMessage); !this was round one!
 
-
+function logMessage() {
+  let logMessage = 'Hello, World';
+  console.log(logMessage)
+}
+logMessage();
 
 
 /**
@@ -30,7 +38,11 @@
 */
 
 // Your code goes here...
-
+let message = 'My Message. Exercise 2 is the same as 1 but errors with having an arguement.'
+function logMyMessage(message){
+  return message
+}
+logMyMessage()
 
 
 
@@ -45,7 +57,10 @@
 */
 
 // Your code goes here...
-
+function logMessageWithMyName(name){
+  console.log('My name is ' + name + '!');
+}
+logMessageWithMyName('Keiko');
 
 
 
@@ -61,7 +76,11 @@
 */
 
 // Your code goes here...
-
+function logMyInfo(info) {
+  let name = 'Keiko';
+  let age = 37;
+  console.log('My name is ' + name + '. I am ' + age +'years old.')
+}
 
 
 
