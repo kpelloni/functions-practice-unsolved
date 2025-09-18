@@ -16,6 +16,15 @@
 
 // Your code goes here...
 
+function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
+  if (!arr.length) return false;
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i] > val1 && arr[i] < val2){
+      return true
+    }
+  }
+  return false;
+}
 
 
 
@@ -36,6 +45,36 @@
 
 // Your code goes here...
 
+// Named function
+function getValueWithConditionOne(a, b) {
+  if (a === 40 && b === 40) {
+    return a + b;
+  } else {
+    return 2 * (a + b);
+  }
+}
+
+// Arrow function
+const getValueWithConditionTwo = (a, b) => {
+  if (a === 40 && b === 40) {
+    return a + b;
+  } else {
+    return 2 * (a + b);
+  }
+};
+
+// Function expression
+const getValueWithConditionThree = function(a, b) {
+  if (a === 40 && b === 40) {
+    return a + b;
+  } else {
+    return 2 * (a + b);
+  }
+};
+
+getValueWithConditionOne(45, 32)
+getValueWithConditionTwo(22, 22)
+getValueWithConditionThree(41, 76)
 
 
 

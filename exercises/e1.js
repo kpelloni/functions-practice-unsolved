@@ -14,16 +14,12 @@
 */
 
 // Your code goes here
-// function logMessage() 
-//   let logMessage = 'Hello World'
-// }
-// console.log(logMessage); !this was round one!
 
 function logMessage() {
-  let logMessage = 'Hello, World';
+  let logMessage = 'Hello, World!';
   console.log(logMessage)
 }
-logMessage();
+
 
 
 /**
@@ -38,13 +34,10 @@ logMessage();
 */
 
 // Your code goes here...
-let message = 'My Message. Exercise 2 is the same as 1 but errors with having an arguement.'
-function logMyMessage(message){
-  return message
+function logMyMessage(msg) {
+  console.log(msg);
 }
-logMyMessage()
-
-
+  logMyMessage('This is my message')
 
 /**
  * ===============================================================
@@ -62,8 +55,6 @@ function logMessageWithMyName(name){
 }
 logMessageWithMyName('Keiko');
 
-
-
 /**
  * ==============================================================
  * Create a function that works as follows:
@@ -76,19 +67,19 @@ logMessageWithMyName('Keiko');
 */
 
 // Your code goes here...
-function logMyInfo(info) {
-  let name = 'Keiko';
-  let age = 37;
-  console.log('My name is ' + name + '. I am ' + age +'years old.')
+
+function logMyInfo(name, age) {
+  console.log('My name is ' + name + '. I am ' +  age + ' years old!')
 }
 
+logMyInfo('Keiko', 37);
 
+//I'm gonna rage-quit because of punctiation! 
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
 // If the test has all tests passed, switch to the next exercise file
 // If any of the tests fails, refactor the code and run the test command after you've fixed the function
-
 
 // Do not delete or change the lines beneath
 const f = {

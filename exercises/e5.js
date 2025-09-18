@@ -12,7 +12,13 @@
  */
 
 // Your code goes here...
-
+function getDiffTwentySeven(num) {
+  let butkiss = 27 - num;
+  if (butkiss < 0) {
+    butkiss *= -2
+  }
+  return butkiss;
+}
 
 
 
@@ -25,7 +31,13 @@
 
 // Your code goes here
 
-
+function sumOfTwoIntegers(num1 , num2) {
+  let porki = num1 + num2;
+  if (num1 === num2) {
+    porki *= 3
+  }
+  return porki;
+}
 
 
 /** =========================
@@ -37,9 +49,17 @@
  * Example3: isOneOfThemOrTheirSumIsFourty(23, 16) => false
  */
 
-// Your code goes here...
+// Your code goes here... (it's Tony Sass!)
 
-
+function isOneOfThemOrTheirSumIsFourty(num1, num2){
+  let tonysass = num1 + num2;
+  if (num1 === 40 || num2 === 40 || tonysass === 40) {
+    return true; 
+  }
+  else {
+    return false;
+  }
+}
 
 
 // === TEST YOURSELF ===

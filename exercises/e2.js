@@ -11,7 +11,9 @@
 */
 
 // Your function code starts here...
-
+function rectArea(x, y) {
+  return x * y ;
+}
 
 // Use the function you created above to calculate the areas of 3 rooms
 // Assign the results to room1, room2, and room3 variables
@@ -19,7 +21,13 @@
 
 // Your code goes here:
 
+const room1 = rectArea(4, 6);
+const room2 = rectArea(13, 3 );
+const room3 = rectArea(4, 8);
 
+console.log("Room 1", room1)
+console.log("Room 2", room2)
+console.log("Room 3", room3)
 
 /**
  * =============================================================
@@ -33,14 +41,15 @@
 
 // Your code goes here...
 
+function totalRoomsArea(room1, room2, room3) {
+  return room1 + room2 + room3;
+}
 
 
 // Make the function call in the parentheses of the console.log statement.
 // Use room1, room2, room3 variables as arguments for the function call
-const result = function () {
-    console.log(/* replace this comment with a function call here... */);
-}
 
+console.log("This is the total room area: ", totalRoomsArea(room1, room2, room3))
 
 
 // === TEST YOURSELF ===
@@ -48,7 +57,7 @@ const result = function () {
 // If the test has all tests passed, switch to the next exercise file
 // If any of the tests fails, refactor the code and run the test command after you've fixed the function
 
-
+//I swear, I didn't touch this AT ALL!!!! -KP
 // Do not delete or change the lines beneath
 const f = {
     rectArea: rectArea || undefined,
